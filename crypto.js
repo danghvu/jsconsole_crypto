@@ -1,0 +1,11 @@
+var list = [ "core-min.js", "aes.js", "hmac-md5.js", "hmac-sha1.js","hmac-sha224.js", "hmac-sha256.js", "hmac-sha384.js",
+   "hmac-sha512.js",  "md5.js",  "pbkdf2.js",  "rabbit.js" , "rc4.js" , "sha1.js", "sha224.js", "sha256.js", "sha384.js", "sha512.js", "tripledes.js", "enc-base64-min.js", "enc-utf16-min.js", "end.js"]
+
+for (var i in list) {
+    var script = document.createElement('script');
+    script.src = 'crypto2/'+ list[i];
+    script.type = 'text/javascript';
+    script.defer = true;
+    var head = document.getElementsByTagName('head').item(0);
+    head.appendChild(script);
+}

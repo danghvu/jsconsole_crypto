@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" manifest="jsconsole.appcache">
+<head>
+<meta charset="utf-8" />
+<title>JavaScript console - by rem @hacked with crypto by w00d</title>
+
+<meta id="meta" name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel='apple-touch-icon' href='/favicon.png' />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link href="/startup.png" rel="apple-touch-startup-image" />
+<link rel="stylesheet" href="console.css" />
+</head>
+<body>
+<div id="console">
+    <ul id="output"></ul>
+</div>
+<form>
+  <textarea autofocus id="exec" spellcheck="false" autocapitalize="off" rows="1" autocorrect="off" placeholder="command"></textarea>
+</form>
+
+<script src="prettify.packed.js"></script>
+<script src="EventSource.js"></script>
+<script src="console.js"></script>
+<footer id="footer"></footer>
+</body>
+</html>
