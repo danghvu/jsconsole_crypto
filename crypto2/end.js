@@ -61,10 +61,10 @@ String.prototype.tobhex = cc.tobhex = function(string) {
 
 String.prototype.md5 = cc.md5 = function(string){
     if (!string) string = this;
-    return cc.MD5(string);
+    return cc.MD5(string).toString();
 }
 
 String.prototype.sha = cc.SHA256 = function(string) {
     if (!string) string = this;
-    return cc.SHA256;
+    return cc.SHA256.toString();
 }
