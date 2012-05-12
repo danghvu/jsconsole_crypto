@@ -10,7 +10,7 @@ if (path === '') {
    var scripts = document.getElementsByTagName('script');
 
    for (var i = scripts.length - 1; i >= 0; --i) {
-       var src = scripts[i].src;
+       var src = scripts[i].src.split('?')[0];
        var l = src.length;
        var length = name.length;
        if (src.substr(l - length) == name) {
