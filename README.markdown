@@ -14,6 +14,5 @@ Also available as a [native iOS app](http://jsconsole.com/app/) from the iTunes 
 - Add support for loading in a DOM (YQL - I thank you again)
 - Permalink to individual executions
 
-# TODO
-
-- Permalink to session (trickier, server side required - can I do it without?)
++ CRYPTO and shortcut function
++ 
