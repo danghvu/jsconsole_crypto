@@ -4,7 +4,7 @@ var list = [ "core-min.js", "aes.js", "hmac-md5.js", "hmac-sha1.js","hmac-sha224
 //just in case it was included using url
 var path = ''; //explicitly declare here or
 
-if (path !== '') {
+if (path === '') {
 
 (function (name) {
    var scripts = document.getElementsByTagName('script');
